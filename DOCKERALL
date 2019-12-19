@@ -1,0 +1,30 @@
+Jupyter
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-ubuntu-18-04
+
+Docker
+
+sudo docker images
+sudo docker ps -a
+sudo docker start
+sudo docker run --name datascience -p 8888:8888 -v "$PWD/notebooks:/opt/notebooks" -d evheniy/docker-data-science
+
+//push
+
+https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html
+sudo docker images
+sudo docker tag 32f53bf28a49 pant7/myimage:firsttry
+pant@Pant:~/datascience$ sudo docker push pant7/myimage
+
+
+Git
+
+https://itnext.io/become-a-git-pro-in-just-one-blog-a-thorough-guide-to-git-architecture-and-command-line-interface-93fbe9bdb395
+https://towardsdatascience.com/docker-for-data-science-9c0ce73e8263?
+
+
+Pandas
+
+https://towardsdatascience.com/apply-and-lambda-usage-in-pandas-b13a1ea037f7
+
+
